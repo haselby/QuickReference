@@ -26,7 +26,7 @@ Raspbian GNU/Linux 10 (buster)
 
     $ markserv --help
 
-    $ markserv ~/Development/QuickReference --address 10.0.0.199
+    $ markserv ~/Development/QuickReference/site --address 10.0.0.199
 
     
 
