@@ -10,19 +10,20 @@
 | shift + v            | visual line mode                                     |
 
 
-| *Moving In The File*                                              || 
-|----------------------|---------------------------------------------|
-| h , j , k , l        | h (left)   j (down)   k (up)   l (right)    |
-| w                    | to the start of next word                   |
-| e                    | to the end of next word                     |
-| 0                    | to the beginning of the line                |
-| $                    | to the end of the line                      |
-| gg                   | to the top of the file                      |
-| G                    | to the bottom of the file                   |
-| :50                  | go to line 50                               |
-| Crtl + g             | displays your location in file              |
-| Ctrl + o             | Return to previous location                 |
-| Ctrl + i             | Go forward (Inverse of above command)       |
+| *Moving In The File*                                                 || 
+|----------------------|------------------------------------------------|
+| h , j , k , l        | h (left)   j (down)   k (up)   l (right)       |
+| w                    | to the start of next word                      |
+| e                    | to the end of next word                        |
+| 0                    | to the beginning of the line                   |
+| $                    | to the end of the line                         |
+| gg                   | to the top of the file                         |
+| G                    | to the bottom of the file                      |
+| 42g                  | go to line 42                                  |
+| 100j                 | jump 100 lines down (100k - jump 100 lines up) |
+| Crtl + g             | displays your location in file                 |
+| Ctrl + o             | Return to previous location                    |
+| Ctrl + i             | Go forward (Inverse of above command)          |
 
 
 | *Cut, Copy & Paste*                                               || 
@@ -51,6 +52,19 @@
 | c [number] motion    | change                                      |
 
 
+| Marks                                                                             ||
+|-------------------|----------------------------------------------------------------|
+| ma	            | set mark a at current cursor location                          |
+| 'a	            | jump to line of mark a (first non-blank character in line)     |
+| `a	            | jump to position (line and column) of mark a                   |
+| d'a	            | delete from current line to line of mark a                     |
+| d`a	            | delete from current cursor position to position of mark a      | 
+| c'a	            | change text from current line to line of mark a                |
+| y`a	            | yank text to unnamed buffer from cursor to position of mark a  |
+| :marks	        | list all the current marks                                     |
+| :marks aB	        | list marks a, B                                                |
+
+
 | Repeat                                                            || 
 |----------------------|---------------------------------------------|
 | .                    | Repeat last change or command               |            
@@ -71,7 +85,8 @@
 |----------------------|---------------------------------------------|
 | /                    | Search                                      |
 | ?                    | Search (Reverse Direction)                  |
-| *                    | Search for word under the cursor            |
+| *                    | Search for word under the cursor (next)     |
+| #                    | Search for word under the cursor (previous) |
 | s/old/new/g          | Replace global                              |
 | s/old/new            | Replace next instance                       |
 
