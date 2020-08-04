@@ -62,9 +62,9 @@
 | Ctrl + r             | redo                                        |
 
 
-| *Matching Parentheses Search* ) , ] , }                           || 
+| *Matching Parentheses Search*                          || 
 |----------------------|---------------------------------------------|
-| %                    | move to matching bracket                    |
+| %                    | move to matching bracket   ) , ] , }        |
 
 
 | *Search / Replace*                                                || 
@@ -129,10 +129,9 @@
 |----------------------|---------------------------------------------|
 | ! command            | Executes a single command in BASH shell     |
 
-| *Terminal: Method - Suspend And Resume*                           || 
+
+| *Terminal: Method - Shell*                                        || 
 |----------------------|---------------------------------------------|
-| ctrl + z             | suspend vim                                 |
-| fg                   | resume vim                                  |
 | shell                | launch temporary bash shell                 |
 | exit                 | exit temporary bash shell                   |
 
@@ -145,11 +144,18 @@
 | resize +5            | increase current window by 5 rows           |
 
 
+| *Command History Buffer*                                                   || 
+|----------------------|------------------------------------------------------|
+| q:                   | Invoke Command history buffer                        |
+| j or k               | select previous vim command or blank                 |
+| enter                | run selected command and exit Command History Buffer |
+
 
 | *Set VIM Options*                                                      || 
 |----------------------|--------------------------------------------------|
-| set hlsearch         | highlight all matching phrases  (set nohlsearch) |
-| set number           | enable line number              (set no number)  |
+| set hlsearch         | highlight all matching phrases  (hls, nohls)     |
+| set number           | enable line number              (nu, nonu)       |
+| set relativenumber   | enable relative line numbering  (rnu, nornu)     |
 | syntax on            | enable syntax highlighting      (syntax off)     |
 | set tabstop=4        | set tab = 4 spaces              (set ts=4)       |
 | set expandtab        | sets vim to replace tabs with spaces             |
