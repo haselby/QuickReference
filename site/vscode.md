@@ -1,14 +1,15 @@
 
-| *General*                                           ||| 
-| --------------|-----------|---------------------------|
-| Ctrl+Shift+P  | Shift ⌘ P | Show Command Palette (F1) |
-| Ctrl+P        | ⌘ P       | Quick Open, Go to File…   |
-| Ctrl+Shift+N  | Shift ⌘ N | New window/instance       |
-| Ctrl+Shift+W  | ⌘ W       | Close window/instance     |
-| Ctrl+K Ctrl+S | ⌘ K, ⌘ S  | Keyboard Shortcuts        |
+| *General*                                                ||| 
+| ------------------|-----------|-------------------------- -|
+| Ctrl + Shift+P    | Shift ⌘ P | Show Command Palette (F1) |
+| Ctrl + P          | ⌘ P       | Quick Open, Go to File…   |
+| Ctrl + Shift + N  | Shift ⌘ N | New window/instance       |
+| Ctrl + Shift  +W  | ⌘ W       | Close window/instance     |
+| Ctrl + K Ctrl + S | ⌘ K, ⌘ S | Keyboard Shortcuts        |
+| Ctrl + Shift + V  | Shift ⌘ V | Show Mark Down Preview    |
 
-| *Basic editing*                                                  ||| 
-|----------------------|---------------|-----------------------------|
+| *Basic editing*                                                   ||| 
+|----------------------|---------------|------------------------------|
 | Ctrl + X             | ⌘ X           | Cut line (empty selection)  |
 | Ctrl + C             | ⌘ C           | Copy line (empty selection) |
 | Alt + ↓              | ⌥ ↓           | Move line down              |
@@ -18,7 +19,7 @@
 | Ctrl + Shift + Enter | Shift ⌘ Enter | Insert line above           |
 | Ctrl + Shift + \     | Shift ⌘ \     | Jump to matching bracket    |
 | Ctrl + ]             | ⌘ ]           | Indent line                 |
-| Home                 | Home          | Go to beginning of line     |
+| Home                 | Home          | Go to beginning of line      |
 | Ctrl + Home          | ⌘  ↑          | Go to beginning of file     |
 | Ctrl + /             | ⌘ /           | Toggle line comment         |
 | Shift + Alt + A      | Shift ⌥ A     | Toggle block comment        |
