@@ -55,3 +55,9 @@
 | Ctrl + Tab       | Ctrl + Tab | Next Tab                             |
 | Ctrl + F4        | ⌘ W        | Close                                |
 | Ctrl + Shift + T | Shift ⌘ T  | Reopen previously closed editor      |
+
+| *Indentation and Code Formatting*                                                        ||| 
+|--------------------------|--------------------------|--------------------------------------|
+| (HL Text) + Tab          | (HL Text) + Tab          | Indent Section                       |
+| (HL Text) + Shift + Tab  | (HL Text) + Shift + Tab  | Indent Section                       |
+| Shift + Alt + F          | Shift ⌥ F                | Format Document                      |
