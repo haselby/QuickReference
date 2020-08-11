@@ -1,0 +1,11 @@
+[Unit]
+Description=Markserv Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/markserv /home/jeff/Development/QuickReference/site
+Restart=on-failure
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
