@@ -52,8 +52,8 @@ GDB (GNS Debugger) fro user with gcc
 | Step Into     | thread step-in   | step     | s     | Executes the instruction stepping into any function calls        |
 | Step Over     | thread step-over | next     | n     | Executes the instruction w/o stepping into any function calls    |
 | Step Out      | thread step-out  | finish   | f     | Allow execution to return to calling function                    |
-|               | process continue | continue | c     | Allow execution to continue to next breakpoint or end of program |
-|               | quit             | quit     | q     | Exit GBD debugger, stopping execution of program                 |
+| Continue      | process continue | continue | c     | Allow execution to continue to next breakpoint or end of program |
+| Stop          | quit             | quit     | q     | Exit GBD debugger, stopping execution of program                 |
 
 
 
