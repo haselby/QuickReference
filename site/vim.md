@@ -176,3 +176,22 @@
 | set expandtab        | sets vim to replace tabs with spaces             |
 | set splitbelow       | open terminal at bottom                          |
 
+
+### Configuration ###
+
+**Redirect vi to vim**
+
+    su - root
+    echo 'alias vi="vim"' >> /etc/bashrc
+
+**Append to:** /etc/vim/vimrc
+
+    "haselby mods 20200818
+    "disable vim mouse usage
+    set mouse-=a
+    " Tabs are spaces
+    set expandtab
+    " Number of spaces per tab
+    set tabstop=4
+    " Highlight search results
+    set hlsearch
