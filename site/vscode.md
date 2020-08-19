@@ -24,6 +24,7 @@
 | Ctrl + /             | ⌘ /           | Toggle line comment          |
 | Shift + Alt + A      | Shift ⌥ A     | Toggle block comment         |
 | Alt + Z              | ⌥ Z           | Toggle word wrap             |
+| Ctrl + Shift + I     | Shift ⌘ I     | Toggle overtype mode         |
 
 | *Multi-cursor*                                                                  ||| 
 |----------------------|---------------|--------------------------------------------|
